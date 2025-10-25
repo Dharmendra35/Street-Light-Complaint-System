@@ -1,20 +1,21 @@
 ![logo](https://github.com/satwikgupta/Street-Light-Complaint-System/blob/main/frontend/public/assets/slcs_logo.png)
 
-This web-based application streamlines the process of reporting and managing street light malfunctions. It empowers citizens to report issues conveniently, 
+This web-based application streamlines the process of reporting and managing street light malfunctions. It empowers citizens to report issues conveniently,
 provides a centralized platform for administrators to address complaints efficiently, and fosters collaborative communication within the management team.
 
 ## 🔮 User Features:
 
--   💻 *Authentication:* Secure login and signup for users.
--   📁 *Complaint Submission:* Submit new street light complaint forms, including details like area, location, type of fault, etc.
--   💾 *Complaint Status Tracking:* View the status (e.g., Submitted, Approved, Denied) and remarks of your submitted complaints within your profile.
--   🚀 *Complaint History:* Access a comprehensive list of all your submitted complaints with their details and history.
+- 💻 _Authentication:_ Secure login and signup for users.
+- 📁 _Complaint Submission:_ Submit new street light complaint forms, including details like area, location, type of fault, etc.
+- 💾 _Complaint Status Tracking:_ View the status (e.g., Submitted, Approved, Denied) and remarks of your submitted complaints within your profile.
+- 🚀 _Complaint History:_ Access a comprehensive list of all your submitted complaints with their details and history.
 
 ## 👥 Admin Features:
--   🌍 *Complaint Management:* View, approve, or deny submitted complaints.
--   🌈 *Area-Based Access Control:* Assign specific areas to different admins, allowing them to manage complaints within their assigned jurisdictions.
--   🚀 *Complaint Filtering:* Filter complaints based on various criteria (e.g., area, status, date submitted).
--   ⏱ *User Management:* Manage user accounts (e.g., view user details, reset passwords).
+
+- 🌍 _Complaint Management:_ View, approve, or deny submitted complaints.
+- 🌈 _Area-Based Access Control:_ Assign specific areas to different admins, allowing them to manage complaints within their assigned jurisdictions.
+- 🚀 _Complaint Filtering:_ Filter complaints based on various criteria (e.g., area, status, date submitted).
+- ⏱ _User Management:_ Manage user accounts (e.g., view user details, reset passwords).
 
 ## 🚀 Live Preview
 
@@ -34,39 +35,36 @@ You can view the live preview of the project [here](https://slcms.vercel.app/).
 
 ## ⚙ Installation
 
-1. *Fork this repository:* Click the Fork button located in the top-right corner of this page to fork the repository.
-2. *Clone the repository:*
-    ```bash
-    git clone https://github.com/satwikgupta/Street-Light-Complaint-System.git
-    ```
-    
-3. *Set .env file:*
+1. _Fork this repository:_ Click the Fork button located in the top-right corner of this page to fork the repository.
+2. _Clone the repository:_
+   ```bash
+   git clone https://github.com/Dharmendra35/Street-Light-Complaint-System.git
+   ```
+3. _Set .env file:_
    Inside the client and server directories make a file .env and set the following environment variables.
-    
 
-4. *Install dependencies:*
+4. _Install dependencies:_
    Navigate to the frontend and backend directories separately and run:
-   ``` bash
+   ```bash
      npm install
    ```
-    
-5. *Start the frontend and backend servers:*  
+5. _Start the frontend and backend servers:_  
     Backend:
-    ```bash
-    cd backend
-    npm start
-    ```
-   
-   Frontend:
-    ```bash
-    cd frontend
-    npm run dev
-    ```
-    
-7. *Access the application:*
-   Open a browser and enter the following URL:
-    ```bash
-    http://localhost:5173/
-    ```
-    
 
+   ```bash
+   cd backend
+   npm start
+   ```
+
+   Frontend:
+
+   ```bash
+   cd frontend
+   npm run dev
+   ```
+
+6. _Access the application:_
+   Open a browser and enter the following URL:
+   ```bash
+   http://localhost:5173/
+   ```
